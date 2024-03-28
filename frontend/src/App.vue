@@ -1,5 +1,10 @@
 <template>
     <NavBar />
+
+    <p> {{ message }} </p>
+    <button @click="count++">Arttır</button><button @click="count--">Azalt</button>
+    <p> {{ count }}</p>
+    <p v-if="isVisible">Burası Görünecek</p>
 </template>
 
 <script>
@@ -10,6 +15,13 @@ export default {
     name: "App",
     components: {
         NavBar
+    },
+    data() {
+        return {
+            message: "Merhaba",
+            count: 0,
+            isVisible: true
+        }
     }
 }
 </script>
