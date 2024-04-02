@@ -1,10 +1,6 @@
 <template>
     <NavBar />
-
-    <p> {{ message }} </p>
-    <button @click="count++">Arttır</button><button @click="count--">Azalt</button>
-    <p> {{ count }}</p>
-    <p v-if="isVisible">Burası Görünecek</p>
+    <RouterView />
 </template>
 
 <script>

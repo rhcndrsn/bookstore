@@ -1,22 +1,22 @@
 <template>
     <nav class="navbar navbar-expand-md custom-nav">
         <div class="container">
-            <a class="navbar-brand" href="#">{{ brandName.toUpperCase() }}</a>
+            <a class="navbar-brand" href="/">{{ brandName.toUpperCase() }}</a>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Books</a>
+                    <a class="nav-link" href="books">Books</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="contact">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" href="login">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
+                    <a class="nav-link" href="register">Register</a>
                 </li>
             </ul>
         </div>
