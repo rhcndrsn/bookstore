@@ -6,7 +6,11 @@
 
 <script>
     export default {
-        name: "HomeView"
+        name: "HomeView",
+        data() {
+            return {
+            };
+        }
     }
 </script>
 
